@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+.hidden
+{
+	display: none;
+}
+
+#siteContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+p{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#mainLogo
+{
+	background-color: black;
+	height: 115px;
+	width: 115px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#hamMenu
+{
+	background-color: black;
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+#promoImg
+{
+	background-color: black;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+.promoArticle{
+	height: 150px;
+	margin: 20px;
+	background-color: gray;
+}
+
+.promoImg1{
+	height: 100px;
+	margin: 20px;
+	background-color: black;
+}
+
+.promoArticle1{
+	height: 150px;
+	margin: 20px;
+	background-color: gray;
+}
+
+.promoImg2{
+	height: 100px;
+	margin: 20px;
+	background-color: black;
+}
+
+.seeM{
+	color: blue;
+	font-size: 14px;
+	text-align: center;
+}
+
+.fundRaise{
+	width: 215px;
+	height: 40px;
+	background-color: black;
+	margin-right: 50%;
+	margin-left: 20%;
+	margin-top: 10px;
+}
+
+#fundImg{
+	display: flex;
+	justify-content: space-around;
+}
+
+.fundMember{
+	width: 185px;
+	height: 175px;
+	background-color: black;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.fundMember1{
+	display: inline-block;
+}
+
+#fundInfo{
+	display: flex;
+	justify-content: space-around;
+}
+
+.memberInfo{
+	width: 185px;
+	height: 75px;
+	background-color: gray;
+	margin-left: 10px;
+}
+
+.memberInfo1{
+	display: inline-block;
+}
+
+#socialIcon{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px){
+
+#mainLogo
+{
+	width: 215px;
+	height: 215px;
+	margin-left: 0px;
+}
+	
+#mainNav
+{
+	display: flex;
+}
+
+#hamMenu
+{
+	width: 600px;
+	height: 50px;
+	margin-top: 80px;
+}
+
+#promoImg
+{
+	width: 1200px;
+	height: 250px;
+}
+
+#promoCon{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.promoArticle{
+	width: 200px;
+	height: 250px;
+	margin-top: 40px;
+	background-color: gray;
+}
+
+.promoImg1{
+	width: 250px;
+	height: 250px;
+	margin-top: 40px;
+	background-color: black;
+}
+
+#promoCon2{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.promoArticle1{
+	width: 200px;
+	height: 250px;
+	background-color: gray;
+}
+
+.promoImg2{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+}
+
+.seeM{
+	display: none;
+}
+
+.fundRaise{
+	width: 215px;
+	height: 40px;
+	background-color: black;
+	margin-right: 50%;
+	margin-left: 42%;
+	margin-top: 10px;
+}
+
+#fundImg{
+	display: flex;
+	justify-content: space-around;
+}
+
+.fundMember{
+	width: 185px;
+	height: 175px;
+	background-color: black;
+	margin-top: 20px; 
+}
+
+.fundMember1{
+	width: 185px;
+	height: 175px;
+	background-color: black;
+	margin-top: 20px; 
+}
+
+#fundInfo{
+	display: flex;
+	justify-content: space-around;
+}
+
+.memberInfo{
+	width: 185px;
+	height: 175px;
+	background-color: gray;
+	margin-left: 10px;
+}
+
+.memberInfo1{
+	width: 185px;
+	height: 175px;
+	background-color: gray; 
+}
+
+#socialIcon{
+	display: flex;
+	justify-content: center;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#footerNav{
+	height: 50px;
+	background-color: black;
+	margin-top: 20px;
+}
+
+
+}
